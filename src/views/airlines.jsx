@@ -3,7 +3,7 @@ import axios from "axios";
 import Card from "../components/card";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Loader from "../components/loader";
-import BackToTop from "../components/BackToTop";
+import BackToTop from "../components/backtotop";
 
 export default function Airlines() {
   const [loading, setLoading] = useState(false);
